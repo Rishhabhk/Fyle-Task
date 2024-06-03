@@ -117,7 +117,6 @@ a{
     border-radius: 0;
     border-bottom: 1px solid #6F718F99 !important;
     color: black;
-    /* margin-left: 0.6rem !important; */
     font-weight: 500;
     box-shadow: none !important;
 }
@@ -222,7 +221,6 @@ a{
     font-weight: 400;
 }
 .serive-content{
-    /* line-height: 20px; */
     font-weight: 300;
 }
 
@@ -250,7 +248,7 @@ a{
   .image-slider {
     margin-left: 13%; 
     display: flex;
-    scroll-behavior: smooth; /* Ensure smooth scrolling */
+    scroll-behavior: smooth; 
   }
   
   
@@ -330,7 +328,7 @@ a{
     top: -1.3rem;
     left: -2rem;
 }
-@media (max-width: 991.98px) { /* Bootstrap's large breakpoint */
+@media (max-width: 991.98px) { 
     .container-custom-width {
       width: 100% !important;
     }
@@ -344,7 +342,7 @@ a{
   }
 
 
-  @media (max-width: 991.98px) { /* Bootstrap's large breakpoint */
+  @media (max-width: 991.98px) { 
     .container-custom-width {
       width: 100% !important;
     }

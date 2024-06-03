@@ -2,9 +2,9 @@ $(document).ready(function() {
     const projectContents = $('.project-content');
     const mainImage = $('#main-image');
     const imageSources = [
-        '/assets/custom-image-1.jpg',
-        '/assets/image@2x.png',
-        '/assets/custom-image-2.jpg'
+        'assets/custom-image-1.jpg',
+        'assets/image@2x.png',
+        'assets/custom-image-2.jpg'
     ];
 
     projectContents.each(function(index) {
@@ -53,9 +53,9 @@ $(document).ready(function() {
         sliderButtons.each(function(index) {
             const img = $(this).find('img');
             if (index === currentIndex) {
-                img.attr('src', '/assets/1.svg');
+                img.attr('src', 'assets/1.svg');
             } else {
-                img.attr('src', '/assets/2.svg');
+                img.attr('src', 'assets/2.svg');
             }
         });
     }
@@ -74,9 +74,9 @@ $(document).ready(function() {
             sliderButtons.each(function(idx) {
                 const img = $(this).find('img');
                 if (idx === index) {
-                    img.attr('src', '/assets/1.svg');
+                    img.attr('src', 'assets/1.svg');
                 } else {
-                    img.attr('src', '/assets/2.svg');
+                    img.attr('src', 'assets/2.svg');
                 }
             });
         };
